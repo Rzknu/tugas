@@ -1,0 +1,79 @@
+* {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #333A73;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.navbar a {
+    color: white;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.active {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.navbar-toggler {
+    margin-top: 10px;
+}
+
+.rounded-circle {
+    margin-top: 30px;
+}
+
+.display-4 {
+    font-size: 30px;
+    overflow: hidden;
+}
+
+.lead {
+    font-size: 17px;
+}
+
+.svg {
+    margin-top: -50px;
+}
+
+#about {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: #333A73;
+}
+
+#about>.container {
+    padding-top: 50px;
+}
+
+#contact {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333A73;
+    padding: 40px;
+}
+
+.my-form {
+    width: 800px;
+}
+
+.my-form>.btn {
+    background-color: white;
+    width: 100px;
+    margin-top: 10px;
+}
